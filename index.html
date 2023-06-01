@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Issues</title>
+</head>
+<style>
+    span{
+        margin-left: 10px;
+        color:purple;
+    }
+    #res{
+       margin-top: 50px;
+        margin-left: 500px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        margin: 50px;
+        padding: 10px;
+        font-size: 32px;
+        color: red;
+    }
+    ol{
+        margin-top: 50px;
+        margin-left: 600px;
+    }
+    li{
+        font-size: 50px;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:blue
+    }
+</style>
+<body>
+    <h1>Page Number: <span id="add">1</span></h1>
+    <ol id="issues">
+
+    </ol>
+    <div id="res">
+    <button onclick="prev()">load_prev</button>
+    <button onclick="next()">load_next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
